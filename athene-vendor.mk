@@ -163,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.android.settings.shared.xml:system/etc/permissions/com.motorola.android.settings.shared.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.camerabgproc_library.xml:system/etc/permissions/com.motorola.camerabgproc_library.xml \
+    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.hw.sensorhub.xml:system/etc/permissions/com.motorola.hw.sensorhub.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.imager.access.xml:system/etc/permissions/com.motorola.imager.access.xml \
@@ -1030,7 +1031,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/motorola/athene/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/athene/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/motorola/athene/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/motorola/athene/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/motorola/athene/proprietary/priv-app/MotCamera/lib/arm/libjni_mot_mosaic.so:system/priv-app/MotCamera/lib/arm/libjni_mot_mosaic.so \
+    vendor/motorola/athene/proprietary/priv-app/MotCamera/lib/arm/libMobileOcrEngine.so:system/priv-app/MotCamera/lib/arm/libMobileOcrEngine.so
+
 
 PRODUCT_PACKAGES += \
     libril \
@@ -1060,4 +1064,5 @@ PRODUCT_PACKAGES += \
     DMConfigUpdateLight \
     HiddenMenuLight \
     MotoSignatureApp \
-    atfwd
+    atfwd \
+    MotCamera
