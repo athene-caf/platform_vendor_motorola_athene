@@ -168,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.hw.sensorhub.xml:system/etc/permissions/com.motorola.hw.sensorhub.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.imager.access.xml:system/etc/permissions/com.motorola.imager.access.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.imager.athene.xml:system/etc/permissions/com.motorola.imager.athene.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.slpc.xml:system/etc/permissions/com.motorola.slpc.xml \
     vendor/motorola/athene/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
@@ -1056,11 +1055,9 @@ PRODUCT_PACKAGES += \
     DCMO \
     DiagMon \
     DMService \
-    ImagerTuning \
     SlpcService \
     SlpcSystem \
     SprintDM \
-    ColorProfiles\
     DMConfigUpdateLight \
     HiddenMenuLight \
     MotoSignatureApp \
