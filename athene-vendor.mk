@@ -1055,11 +1055,7 @@ PRODUCT_PACKAGES += \
     DCMO \
     DiagMon \
     DMService \
-    SlpcService \
-    SlpcSystem \
     SprintDM \
     DMConfigUpdateLight \
-    HiddenMenuLight \
-    MotoSignatureApp \
     atfwd \
     MotCamera
